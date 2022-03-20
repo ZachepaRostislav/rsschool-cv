@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #013b45;
+
+  padding: 20px 0;
+  width: 100%;
+}
+.year {
+  color: #f3f3f3;
+  font-size: 22px;
+}
+
+.git-link::before {
+  content: url("../assets/img/github-brands.svg");
+  display: inline-block;
+  width: 60px;
+
+  margin-right: 5px;
+}
+
+.footer-logo {
+  width: 200px;
+  object-fit: cover;
+}
