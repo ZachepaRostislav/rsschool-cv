@@ -1,0 +1,44 @@
+.phone::before{
+  content: url("../assets/img/phone-square-alt-solid.svg");
+  display: inline-block;
+  width: 50px;  
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.skype::before{
+  content: url("../assets/img/skype-brands.svg");
+  display: inline-block;
+  width: 50px;  
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.email::before{
+  content: url("../assets/img/at-solid.svg");
+  display: inline-block;
+  width: 50px;  
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.telegram::before{
+  content: url("../assets/img/telegram-brands.svg");
+  display: inline-block;  
+  width: 50px;  
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.git::before{
+  content: url("../assets/img/git-brands.svg");
+  display: inline-block;  
+  width: 50px;  
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.my-rep {
+  transition: 0.6s all;
+  color: #fff;
+}
+
+.my-rep:hover {
+  cursor: pointer;
+  color: #eb7457;
+}
